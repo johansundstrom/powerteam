@@ -1,15 +1,20 @@
 .header-bg {
-    background-color: #77828f;
-}
+  background-color: #77828f;
+  padding: 2em;
+  margin: 0px; }
+
 .nav-bg {
-    background-color: #adb7c4;
-}
+  border-top: 2px solid #888888;
+  border-bottom: 2px solid #aaa;
+  background-color: #adb7c4; }
 
 .header6p {
-    height: 6px;
-    background-color: white;
-}
+  height: 6px;
+  background-color: white; }
+
 .page-footer {
-    margin-top: 1em;
-    background-color: #0ab302;
-}
+  margin-top: 1em;
+  background-color: #888888; }
+
+.knapp-skugga {
+  box-shadow: 4px 4px 15px grey; }

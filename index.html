@@ -15,7 +15,12 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+    <!-- Private style -->
     <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- Private js -->
+    <link rel="stylesheet" href="assets/js/myFunctions.js">
 </head>
 
 <body>
@@ -23,28 +28,12 @@
     <header class="container-fluid header-bg">
         <img src="assets/images/logo.svg" alt="" class="img-fluid">
     </header>
-
     <div class="header6p"></div>
-    <nav class="navbar navbar-expand-md navbar-light nav-bg">
-        <a class="navbar-brand" href="#"><i class="fas fa-home"></i><span class="sr-only">(current)</span></a>
-        <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
-            aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="collapsibleNavId">
-            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Erbjudanden</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Kontakta oss</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
 
-    <div class="jumbotron jumbotron-fluid">
-        <main class="container">
+    <div w3-include-html="assets/partials/nav.html"></div>
+
+    <main class="jumbotron jumbotron-fluid">
+        <div class="container">
             <h1 class="display-3">PowerTech ECU Tuning</h1>
             <p class="lead">Unleash the power</p>
             <hr class="my-2">
@@ -52,10 +41,10 @@
                 architecto, cum a voluptatibus, est tempore, animi aspernatur! Voluptate tempora exercitationem natus
                 cumque, aliquam repudiandae fugiat optio?</p>
             <p class="lead">
-                <a class="btn btn-primary btn-lg" href="Jumbo action link" role="button">Knapp som leder till något</a>
+                <a class="btn btn-primary btn-lg knapp-skugga" href="Jumbo action link" role="button">Knapp till nåt</a>
             </p>
         </div>
-    </div>
+    </main>
 
     <div class="container mt-3">
         <div class="card-deck">
@@ -64,31 +53,31 @@
                 <div class="card-body">
                     <h4 class="card-title">Basic</h4>
                     <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores molestias</p>
-                    <a href="#" class="btn btn-primary">länk</a>
+                    <a href="#" class="btn btn-primary knapp-skugga">länk</a>
                 </div>
             </div>
             <div class="card m-1">
                 <img class="card-img-top" src="assets/images/kawasaki.png" alt="">
                 <div class="card-body">
-                    <h4 class="card-title">Standard</h4>
+                    <h4 class="card-title">Stand<wbr>ard</h4>
                     <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores molestias</p>
-                    <a href="#" class="btn btn-primary">länk</a>
+                    <a href="#" class="btn btn-primary knapp-skugga">länk</a>
                 </div>
             </div>
             <div class="card m-1">
                 <img class="card-img-top" src="assets/images/kawasaki.png" alt="">
                 <div class="card-body">
-                    <h4 class="card-title">Professional</h4>
+                    <h4 class="card-title">Profes<wbr>sional</h4>
                     <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores molestias</p>
-                    <a href="#" class="btn btn-primary">länk</a>
+                    <a href="#" class="btn btn-primary knapp-skugga">länk</a>
                 </div>
             </div>
             <div class="card m-1">
                 <img class="card-img-top" src="assets/images/kawasaki.png" alt="">
                 <div class="card-body">
-                    <h4 class="card-title">Advanced</h4>
+                    <h4 class="card-title">Advan<wbr>ced</h4>
                     <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores molestias</p>
-                    <a href="#" class="btn btn-primary">länk</a>
+                    <a href="#" class="btn btn-primary knapp-skugga">länk</a>
                 </div>
             </div>
         </div>
@@ -121,6 +110,12 @@
     <!-- Footer -->
     <footer class="page-footer">
 
+        <!-- Kontakt-->
+        <div class="footer-contact text-center">
+            mail | telefon | adress | org.nr | facebook
+        </div>
+
+        
         <!-- Copyright -->
         <div class="footer-copyright text-center py-3">© 2019 Copyright:
         <a href="ptecu.se.com">ptecu.se.com</a>
@@ -128,7 +123,7 @@
         <!-- Copyright -->
     
     </footer>
-    <!-- Footer -->
+
 
 
     <!-- Optional JavaScript -->
@@ -142,7 +137,10 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
-    <script src="assets/js/javascript.js"></script>
+    <script src="assets/js/jquery.js"></script>
+    <script>
+        includeHTML();
+    </script>
 </body>
 
 

@@ -1,0 +1,28 @@
+$base-color: #888888;
+
+
+
+.header-bg {
+    background-color: #77828f;
+    padding: 2em;
+    margin: 0px;
+}
+.nav-bg {
+    border-top: 2px solid $base-color;
+    ;
+    border-bottom: 2px solid #aaa;
+    background-color: #adb7c4;
+}
+
+.header6p {
+    height: 6px;
+    background-color: white;
+}
+.page-footer {
+    margin-top: 1em;
+    background-color: $base-color;
+}
+
+.knapp-skugga {
+    box-shadow: 4px 4px 15px grey;
+}
