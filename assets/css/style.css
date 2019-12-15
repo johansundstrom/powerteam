@@ -1,7 +1,14 @@
-.bg-dark-green {
-    background-color: #0ab302;
+.header-bg {
+    background-color: #77828f;
+}
+.nav-bg {
+    background-color: #adb7c4;
 }
 
+.header6p {
+    height: 6px;
+    background-color: white;
+}
 .page-footer {
     margin-top: 1em;
     background-color: #0ab302;
