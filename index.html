@@ -2,50 +2,45 @@
 <html lang="en">
 
 <head>
-    <title>ECU</title>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Font awsesome-->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" 
-        rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" 
-        crossorigin="anonymous">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    
-    <!-- Private style -->
-    <link rel="stylesheet" href="assets/css/style.css">
+    <title>PTECU - Start</title>
 
     <!-- Private js -->
-    <link rel="stylesheet" href="assets/js/myFunctions.js">
+    <script src="assets/js/myFunctions.js"></script>
+    <!-- head-->
+    <div include-html="/assets/partials/head.html"></div>
+
 </head>
 
 <body>
+    <!-- logo-->
+    <div include-html="assets/partials/logo.html"></div>
 
-    <header class="container-fluid header-bg">
-        <img src="assets/images/logo.svg" alt="" class="img-fluid">
-    </header>
+    <!-- spacing-->
     <div class="header6p"></div>
 
-    <div w3-include-html="assets/partials/nav.html"></div>
-
-    <main class="jumbotron jumbotron-fluid">
-        <div class="container">
-            <h1 class="display-3">PowerTech ECU Tuning</h1>
-            <p class="lead">Unleash the power</p>
-            <hr class="my-2">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum incidunt numquam iure accusamus
-                architecto, cum a voluptatibus, est tempore, animi aspernatur! Voluptate tempora exercitationem natus
-                cumque, aliquam repudiandae fugiat optio?</p>
-            <p class="lead">
-                <a class="btn btn-primary btn-lg knapp-skugga" href="Jumbo action link" role="button">Knapp till nåt</a>
-            </p>
+    <!-- nav-->
+    <nav class="navbar navbar-expand-md navbar-light nav-bg">
+        <a class="navbar-brand" href="/"><i class="fa fa-home fa-lg fa-fw"></i><span class="sr-only">(current)</span></a>
+        <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
+            aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="/offers">Erbjudande</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Kontakta oss</a>
+                </li>
+            </ul>
         </div>
-    </main>
+    </nav>
 
+    <!-- jumbo-->
+    <div include-html="assets/partials/jumbotron.html"></div>
+
+    <!-- kortlek-->
     <div class="container mt-3">
         <div class="card-deck">
             <div class="card m-1">
@@ -108,21 +103,8 @@
     </div>
 
     <!-- Footer -->
-    <footer class="page-footer">
+    <div include-html="/assets/partials/footer.html"></div>
 
-        <!-- Kontakt-->
-        <div class="footer-contact text-center">
-            mail | telefon | adress | org.nr | facebook
-        </div>
-
-        
-        <!-- Copyright -->
-        <div class="footer-copyright text-center py-3">© 2019 Copyright:
-        <a href="ptecu.se.com">ptecu.se.com</a>
-        </div>
-        <!-- Copyright -->
-    
-    </footer>
 
 
 
@@ -137,7 +119,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
-    <script src="assets/js/jquery.js"></script>
+    <script src="/assets/js/jquery.js"></script>
     <script>
         includeHTML();
     </script>
