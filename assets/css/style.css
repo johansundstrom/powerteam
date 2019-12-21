@@ -21,6 +21,9 @@
   box-shadow: 4px 4px 15px grey; }
 
 .jumbo-img {
-  background-image: url(/assets/images/decor-action-03.png);
+  background-image: url(/assets/images/decor-action-03-crop-dark.png);
   width: 100%;
-  height: 50%; }
+  height: 100%; }
+
+.jumbo-text {
+  text-shadow: 5px 5px 15px rgba(250, 250, 200, 0.9); }
