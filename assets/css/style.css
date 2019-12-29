@@ -1,7 +1,11 @@
+.body-bg {
+  background-color: #a2a2a2; }
+
 .header-bg {
-  background-color: #77828f;
-  padding: 2em;
-  margin: 0px; }
+  /* background-color: #77828f; */
+  background-color: #6f6f6f;
+  padding: 0.5em;
+  padding-left: 20px; }
 
 .nav-bg {
   background-color: #a2a2a2;
@@ -33,3 +37,6 @@
 
 .jumbo-text-lead {
   color: #ffbb00; }
+
+.card-bg {
+  background-color: #888888; }
