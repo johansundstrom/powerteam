@@ -55,5 +55,10 @@ $jumbo-text-lead: saturate( $jumbo-text-color, 10%);
 }
 
 .card-bg {
-    background-color: $base-color;
+    /* background-color: $base-color; */
+    background-color: rgba(250, 250, 200, 0.2);
+}
+
+.container-content {
+    background-image: url("/assets/images/content-bg-img.jpg");
 }

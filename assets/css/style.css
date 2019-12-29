@@ -39,4 +39,8 @@
   color: #ffbb00; }
 
 .card-bg {
-  background-color: #888888; }
+  /* background-color: $base-color; */
+  background-color: rgba(250, 250, 200, 0.2); }
+
+.container-content {
+  background-image: url("/assets/images/content-bg-img.jpg"); }
