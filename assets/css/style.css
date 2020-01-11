@@ -1,16 +1,23 @@
+@charset "UTF-8";
 .body-bg {
-  background-color: #a2a2a2; }
+  background-color: #909fae; }
+
+.logo {
+  /*transform: scale(1);*/
+  /*skala om ifall det behövs*/
+  max-height: 80px;
+  /*maxhöjd gör breds sidas hedaer inte så hög*/ }
 
 .header-bg {
   /* background-color: #77828f; */
-  background-color: #6f6f6f;
+  background-color: #5b6c7d;
   padding: 0.5em;
   padding-left: 20px; }
 
 .nav-bg {
-  background-color: #a2a2a2;
-  border-top: 2px solid #6f6f6f;
-  border-bottom: 2px solid #6f6f6f;
+  background-color: #909fae;
+  border-top: 2px solid #5b6c7d;
+  border-bottom: 2px solid #5b6c7d;
   /*background-color: #adb7c4;*/ }
 
 .header6p {
@@ -19,7 +26,7 @@
 
 .page-footer {
   margin-top: 1em;
-  background-color: #a2a2a2; }
+  background-color: #909fae; }
 
 .knapp-skugga {
   box-shadow: 4px 4px 15px grey; }
@@ -38,9 +45,84 @@
 .jumbo-text-lead {
   color: #ffbb00; }
 
-.card-bg {
-  /* background-color: $base-color; */
-  background-color: rgba(250, 250, 200, 0.2); }
-
 .container-content {
   background-image: url("/assets/images/content-bg-img.jpg"); }
+
+/*Här kommer två spalter*/
+.section {
+  clear: both;
+  padding: 0px;
+  margin: 0px; }
+
+/*  COLUMN SETUP  */
+.col {
+  display: block;
+  float: left;
+  margin: 1% 0 1% 1.6%; }
+
+.col:first-child {
+  margin-left: 0; }
+
+/*  GROUPING  */
+.group:before,
+.group:after {
+  content: "";
+  display: table; }
+
+.group:after {
+  clear: both; }
+
+.group {
+  zoom: 1;
+  /* For IE 6/7 */ }
+
+.span_2_of_2 {
+  width: 45%; }
+
+.span_1_of_2 {
+  width: 45%; }
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+@media only screen and (max-width: 630px) {
+  .col {
+    margin: 1% 0 1% 0%; }
+  .span_2_of_2,
+  .span_1_of_2 {
+    width: 100%; } }
+
+.basic-card-bg {
+  background-color: #6dc634;
+  /*background-color: rgba(250, 250, 200, 0.2);*/ }
+
+.basic-card-txt {
+  color: black; }
+
+.standard-card-bg {
+  background-color: #c1c136;
+  /*background-color: rgba(250, 250, 200, 0.2);*/ }
+
+.standard-card-txt {
+  color: black; }
+
+.advanced-card-bg {
+  background-color: #bf9537;
+  /*background-color: rgba(250, 250, 200, 0.2);*/ }
+
+.advanced-card-txt {
+  color: black; }
+
+.performance-card-txt {
+  color: black; }
+
+.performance-card-bg {
+  background-color: #c14a36;
+  /*background-color: rgba(250, 250, 200, 0.2);*/ }
+
+.basic-card-txt {
+  color: black; }
+
+.bg-textbild {
+  background-color: #6dc634; }
+
+.figure-caption-line {
+  border-bottom: black; }
