@@ -2,8 +2,11 @@
 
 ## utvecklingen av en webbplats
 
+### avklarat
 * menyn - klar
 * ECU-tuning - klar
+
+### gammalt
 
 * scass
 * dynamiska färgpaletter
