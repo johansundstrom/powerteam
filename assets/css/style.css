@@ -49,13 +49,13 @@
 .container-content {
   background-image: url("/assets/images/content-bg-img.jpg"); }
 
-/*Här kommer två spalter*/
+/* Två spalter*/
 .section {
   clear: both;
   padding: 0px;
   margin: 0px; }
 
-/*  COLUMN SETUP  */
+/*  kolumn  */
 .col {
   display: block;
   float: left;
@@ -64,7 +64,7 @@
 .col:first-child {
   margin-left: 0; }
 
-/*  GROUPING  */
+/* gruppering */
 .group:before,
 .group:after {
   content: "";
@@ -123,7 +123,18 @@
   color: black; }
 
 .bg-textbild {
-  background-color: #6dc634; }
+  background-color: #eee; }
 
 .figure-caption-line {
   border-bottom: black; }
+
+.dropdown-menu {
+  background-color: #909fae; }
+
+.shadow-pic {
+  -webkit-box-shadow: 10px 10px 30px -10px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 30px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 30px -10px rgba(0, 0, 0, 0.75); }
+
+.grid-row-line {
+  border-bottom: 1px solid #bbb; }
