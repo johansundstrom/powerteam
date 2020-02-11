@@ -1,14 +1,6 @@
 Slipon
-Orginalljuddämparen är bortmonterad och ett Slip-On är monterat av märket är Yoshimura  R11. Motorcykeln är nu klar för ytterligare en körning i bromsbänken.
+Det är många som tycker orginalljuddämparna är lite ”lama” både utseende- och ljudmässigt, men vad gör det med motorn!? Blir det den effektökning jag hoppades på? Vi monterade därför bort orginalljuddämparen och satte på ett Slip-On istället, i det här fallet ett Yoshimura  R11 och vi monterade det direkt på anslutningen för katalysatorn.
 
-Baseline
-Det första vi gör är att koppla upp vår utrustning till motorcykeln och läser av inställningarna från ECU:n. För att ha mätvärden som utgångspunkt för det fortsatta arbetet testkör vi först vår referensmotorcykel i bromsbänken, motorcykeln är konfigurerad exakt som den levereras från fabriken.
+Efter testkörning i bromsbänken kunde vi till vår stora förvåning se en markant effektminskning från Baselinens 179.68 hk till 171.24 hk, även vridmomentet vek av betänkligt vid samma varvtal från 104.95 till 100.52 Nm.
 
-Vi analyserar inställningarna för luft/bränsleblandningen och jämför dessa med de mätvärden vi får fram under en körning i bromsbänk. På vissa motorcyklar har tillverkaren gjort justeringar på inställningarna för tändningen, gasspjällen eller luftbränsleblandningen i syfte att påverka bla a ljudnivån
-Obs! Uppmätta värden är bakhjulsvärden
-
-De-Cat
-I det här steget monterar vi även bort katalysatorn och ersätter med en ”Link Pipe”, på den aktuella modellens katalysator sitter dessutom ett spjäll som enligt analyser vi gjort, aktiveras i hastigheter mellan 90 och 140 km/h på 6:e växeln. Därför måste även åtgärder inne i ECU:n göras för att hindra eventuella felkoder att aktiveras eftersom kommunikationen ked katalysatorn är bruten.
-
-Luftfilter
-För att motorn ska kunna ”andas” efter så optimala förhållanden som möjligt, ersätter vi original luftfilter med ett från K&N.
+Med facit i handen kan man såklart byta ut orginalljuddämparen mot ett SlipOn, men förvänta dig ingen effektökning, där emot en oväntad effektminskning.
