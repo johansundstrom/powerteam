@@ -2,13 +2,13 @@
 
 •	Släpp loss din motorcykels verkliga prestanda?
 
-•	Låt oss justera din MC:s elektroniska motorstyrningar
+•	Låt oss justera din MC:s elektroniska motorstyrning
 
 •	Har du monterat ett Slip On eller helsystem, vi ”trollar” gärna fram 15-20% extra effekt
 
-•	Vår systemleverantör är teknisk partner i WSBK, därför har vi tillgång till…
+•	Vår systemleverantör är teknisk partner i Superbike-VM, därför har vi tillgång till…
 
-•	… den absolut senaste den senaste tekniken inom elektronisk motoroptimering
+•	… den absolut senaste tekniken inom elektronisk motoroptimering
 
 •	Med vår teknik behöver du varken köpa eller installera extra elektronikenheter…
 
@@ -16,6 +16,6 @@
 
 •	Vi täcker behovet för både gata och bana till Ducati, Honda, Suzuki, Yamaha och Kawasaki
 
-•	Passar för både onsdagsturen, ”Trackdays” och professionella tävlingsteam
+•	Passar för både onsdagsturen, Trackdays och professionella tävlingsdagar
 
 •	Tekniken används inom Dragracing, Superbike, Supersport samt Isle of Man TT
