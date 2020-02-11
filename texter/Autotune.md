@@ -6,3 +6,5 @@ Beroende på vilken effekt vi vill uppnå, justerar vi målvärdena för bla a b
 Därefter styr vi motorn i en bromsbänk efter ett förutbestämt och väl definierat mönster och samlar in de nya värdena från motorns sensorer. 
 
 Mjukvaran registrerar 850 olika värden som samlas in och analyseras för bästa prestanda. I tabellen till höger/vänster kan du se hur vi lyckades i vårt uppdrag.
+
+Efter att ha låtit elektroniken sköta sitt , kunde vi se en remarkabel förbättring av värdena, framför allt på vridmomentet där vi i ser en ökning över hela registret på i genomsnitt 7 Nm, som mest 11,9 Nm. 
