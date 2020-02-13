@@ -198,3 +198,13 @@ $dark-performance-color: darken( $performance-color, 50%);
 .grid-row-line {
     border-bottom: 1px solid #bbb;
 }
+
+#myTable th {
+    font-size: 0.6rem;
+    padding: 0.7rem;
+}
+
+#myTable td {
+    font-size: 0.6rem;
+    padding: 0.7rem;
+}

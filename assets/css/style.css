@@ -138,3 +138,11 @@
 
 .grid-row-line {
   border-bottom: 1px solid #bbb; }
+
+#myTable th {
+  font-size: 0.6rem;
+  padding: 0.7rem; }
+
+#myTable td {
+  font-size: 0.6rem;
+  padding: 0.7rem; }
