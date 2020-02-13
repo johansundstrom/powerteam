@@ -19,6 +19,7 @@ Temperatur – 21.8 C
 
 Mätutrustning
 DynoJet 250i Eddy Current Load Control
+
 Bakgrund
 Att utföra avancerade motorjusteringar med elektroniska hjälpmedel på insprutningsmotorer är ingen nyhet, tidigare system, sk ”Piggy Back System”, har till viss del gjort det under de senaste tjugo åren – men med sina begränsningar och därmed begränsad påverkan.
 
