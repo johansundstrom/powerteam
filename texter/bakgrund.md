@@ -1,3 +1,24 @@
+
+Testobjekt
+Kawasaki ZX10R ABS KRT Edition 2018
+Status
+Orginalutförande (katalysator + orginal ljuddämpare)
+Däck
+Pirelli Diablo SuperCorsa SP3, lufttryck 2.8kg/cm3
+Bränsle
+95 oktan (RON) handelsbränsle
+Eftermarknadssystem
+Yoshimura R11 Slip-On
+Luftfilter
+K&N KA-1016
+
+Meterologiska förhållanden
+Lufttryck – 1028.21 mBar
+Luftfuktighet – 4.0%
+Temperatur – 21.8 C
+
+Mätutrustning
+DynoJet 250i Eddy Current Load Control
 Bakgrund
 Att utföra avancerade motorjusteringar med elektroniska hjälpmedel på insprutningsmotorer är ingen nyhet, tidigare system, sk ”Piggy Back System”, har till viss del gjort det under de senaste tjugo åren – men med sina begränsningar och därmed begränsad påverkan.
 
