@@ -12,6 +12,7 @@ $advanced-color: #bf9537;
 $dark-advanced-color: darken( $advanced-color, 50%);
 $performance-color: #c14a36;
 $dark-performance-color: darken( $performance-color, 50%);
+$light-bg: #ddd;
 .body-bg {
     background-color: $base-color-light;
 }
@@ -19,7 +20,7 @@ $dark-performance-color: darken( $performance-color, 50%);
 .logo {
     /*transform: scale(1);*/
     /*skala om ifall det behövs*/
-    max-height: 80px;
+    height: 80px;
     /*maxhöjd gör breds sidas hedaer inte så hög*/
 }
 
@@ -73,7 +74,8 @@ $dark-performance-color: darken( $performance-color, 50%);
 }
 
 .container-content {
-    background-image: url("/assets/images/content-bg-img.jpg");
+    /*background-image: url("/assets/images/content-bg-img.jpg");*/
+    background-color: $light-bg;
 }
 
 
@@ -207,4 +209,8 @@ $dark-performance-color: darken( $performance-color, 50%);
 #myTable td {
     font-size: 0.6rem;
     padding: 0.7rem;
+}
+
+.mail {
+    color: #4a495d;
 }
