@@ -4,7 +4,7 @@
 
 •	Vi justerar din MC:s elektroniska motorstyrning!
 
-•	Har du nytt Slip On/helsystem, vi ”trollar” gärna fram 15-20% extra effekt?!
+•	Nytt Slip-On/helsystem? Vi ”trollar” gärna fram 15-20% extra effekt!
 
 •	Vår systemleverantör är teknisk partner i Superbike-VM!
 
@@ -14,7 +14,7 @@
 
 •	Vi ansluter oss direkt till din motorcykels ECU!
 
-•	För både gata och bana till KTM, Aprilia, Ducati, Honda, Suzuki, Yamaha och Kawasaki!
+•	Passar KTM, Aprilia, Ducati, Honda, Suzuki, Yamaha och Kawasaki!
 
 •	För onsdagsturen, Trackdays och professionella tävlingsdagar!
 
